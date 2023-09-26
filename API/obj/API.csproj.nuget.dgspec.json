@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\USER\\Desktop\\tienda\\API\\API.csproj": {}
+    "C:\\Users\\APM02-54\\Desktop\\tienda\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\USER\\Desktop\\tienda\\API\\API.csproj": {
+    "C:\\Users\\APM02-54\\Desktop\\tienda\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USER\\Desktop\\tienda\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\APM02-54\\Desktop\\tienda\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\USER\\Desktop\\tienda\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USER\\Desktop\\tienda\\API\\obj\\",
+        "projectPath": "C:\\Users\\APM02-54\\Desktop\\tienda\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\APM02-54\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APM02-54\\Desktop\\tienda\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APM02-54\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
             },
@@ -70,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\USER\\Desktop\\tienda\\core\\core.csproj": {
+    "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USER\\Desktop\\tienda\\core\\core.csproj",
+        "projectUniqueName": "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "c:\\Users\\USER\\Desktop\\tienda\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USER\\Desktop\\tienda\\core\\obj\\",
+        "projectPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\APM02-54\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APM02-54\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -123,21 +129,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\USER\\Desktop\\tienda\\Infrastructure\\obj\\",
+        "projectPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\APM02-54\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APM02-54\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -149,8 +155,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\USER\\Desktop\\tienda\\core\\core.csproj": {
-                "projectPath": "c:\\Users\\USER\\Desktop\\tienda\\core\\core.csproj"
+              "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\core.csproj": {
+                "projectPath": "c:\\Users\\APM02-54\\Desktop\\tienda\\core\\core.csproj"
               }
             }
           }
@@ -164,6 +170,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -180,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

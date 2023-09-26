@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace core.Entities
 {
-    public interface BaseEntity
+    public class BaseEntity
     {
         public int Id { get; set; }
     }
